@@ -8,7 +8,7 @@ import base64
 from datetime import datetime
 
 # 🔹 Initialize Firebase Admin SDK
-cred = credentials.Certificate("arsa-761d0-firebase-adminsdk-fbsvc-3ef22bfeab.json")
+cred = credentials.Certificate("firebase-sdk.json")
 firebase_app = initialize_app(cred)
 db = firestore.client()
 
